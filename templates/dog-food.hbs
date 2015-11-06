@@ -1,0 +1,21 @@
+<h1>Dog Food</h1>
+	{{#each dog_brands}}
+	<div class="brand-name">
+		<h2>{{name}}</h2>
+		
+		{{#each types}}
+			<div class="food-types">
+				<h3 class="type">{{type}}</h3>
+
+			{{#each volumes}}
+				<p class="name">{{name}} - ${{price}}</p>
+			{{/each}}
+
+			</div>
+		{{/each}}
+
+
+		
+		
+	</div>
+	{{/each}}
