@@ -5,7 +5,7 @@
      "breeds" : "Siamese, Bengal, Snowshoe, Munchkin",
      "types": [
        {
-         "type": "kitten",
+         "type": "Kitten",
          "volumes": [
            {
              "name": "20oz",
@@ -69,3 +69,4 @@
      ]
    }
  ]
+}
